@@ -24,14 +24,14 @@ public class Cuadrado extends examenarbayfernandez.FigurasGeometricasPadre {
     **/    
     }
     public float Area() {
-        return lado1 * lado2;
+        return (float) lado1 * (float) lado2;
     }
     /**
     *Método de tipo float llamado Área.
     *@return (lado1 ^ 4).
     **/  
     public float Perimetro() {
-        return lado1 * 4;
+        return (float) lado1 * 4;
     }
     /**
     *Método toString.  

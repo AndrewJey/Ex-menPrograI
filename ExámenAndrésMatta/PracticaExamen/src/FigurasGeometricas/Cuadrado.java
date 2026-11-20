@@ -27,7 +27,7 @@ public class Cuadrado extends FigurasGeometricasPadre{
      * @return area del cuadrado
      */
     public float Area(){
-        return(lado1*lado1);
+        return (float) lado1 * lado1;
     }
 
     /**
@@ -35,7 +35,7 @@ public class Cuadrado extends FigurasGeometricasPadre{
      * @return
      */
     public float Perimetro(){
-        return(lado1*4);
+        return (float) lado1 * 4.0f;
 }
     //Permite imprimir los resultados de los métodos Area() y Perimetro().
     @Override

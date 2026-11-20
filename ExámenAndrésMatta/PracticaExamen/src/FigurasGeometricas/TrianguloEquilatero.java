@@ -26,7 +26,7 @@ public class TrianguloEquilatero extends FigurasGeometricasPadre{
      * @return el area del triangulo equilatero.
      */
     public float Area(){
-        return(lado1*lado2/2);
+        return ((float) lado1 * lado2) / 2.0f;
     }
 
     /**
@@ -34,7 +34,7 @@ public class TrianguloEquilatero extends FigurasGeometricasPadre{
      * @return el perimetro del triangulo equilatero.
      */
     public float Perimetro(){
-        return(lado1*3);
+        return (float) lado1 * 3.0f;
 }
      //Permite imprimir los resultados de los métodos Area() y Perimetro().
     @Override

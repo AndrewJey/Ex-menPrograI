@@ -1,0 +1,16 @@
+[
+  {
+    "project": "ExamenArbayFernandez/build.xml",
+    "source": "checks/ExamOneCheck.java",
+    "main": "ExamOneCheck",
+    "headless": true,
+    "classpath": []
+  },
+  {
+    "project": "ExámenAndrésMatta/PracticaExamen/build.xml",
+    "source": "checks/ExamTwoCheck.java",
+    "main": "ExamTwoCheck",
+    "headless": true,
+    "classpath": []
+  }
+]

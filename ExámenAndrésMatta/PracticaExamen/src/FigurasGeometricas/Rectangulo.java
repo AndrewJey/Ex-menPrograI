@@ -27,7 +27,7 @@ public class Rectangulo extends FigurasGeometricasPadre{
      * @return el area del rectangulo.
      */
     public float Area(){
-        return(lado1*lado2);
+        return (float) lado1 * lado2;
     }
 
     /**
@@ -35,7 +35,7 @@ public class Rectangulo extends FigurasGeometricasPadre{
      * @return el perimetro del rectangulo.
      */
     public float Perimetro(){
-        return(lado1*2+lado2*2);
+        return 2.0f * ((float) lado1 + lado2);
 }
     //Permite imprimir los resultados de los métodos Area() y Perimetro().
     @Override

@@ -25,14 +25,14 @@ public class Rectangulo extends examenarbayfernandez.FigurasGeometricasPadre {
     *@return (lado1 * lado2).
     **/
     public float Area() {
-        return lado1 * lado2;
+        return (float) lado1 * (float) lado2;
     }
     /**
      *Método de tipo float llamado Área.
      *@return (lado1 ^ 2) + (lado2 ^ 2).
      **/
     public float Perimetro() {
-        return (lado1 * 2) + (lado2 * 2);
+        return ((float) lado1 * 2) + ((float) lado2 * 2);
     }
     /**
      *Método toString.

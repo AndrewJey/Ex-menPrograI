@@ -24,14 +24,14 @@ public class TrianguloEquilatero extends examenarbayfernandez.FigurasGeometricas
     *@return (lado1 * lado2)/2. 
     **/   
     public float Area() {
-        return (lado1 * lado2) / 2;
+        return ((float) lado1 * (float) lado2) / 2;
     }
     /**
     *Método de tipo float llamado Área.
     *@return (lado1 ^ 3).
     **/  
     public float Perimetro() {
-        return lado1 * 3;
+        return (float) lado1 * 3;
     }
     /**
     *Método toString.  
